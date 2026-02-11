@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Image Search</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <h3 class="nav justify-content-end">
             <li class="nav-item">
-                <a class="nav-link active" href="image.html">Image Search</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="advanced.html">Advanced Search</a>
+                <a class="nav-link active" href="index.html">Google Search</a>
             </li>
         </h3>
-        <form class="d-flex flex-column justify-content-center align-items-center vstack gap-3" style="height: 100vh;" action="https://google.com/search">
+        <form class="d-flex justify-content-center align-items-center" style="height: 100vh;" action="https://google.com/search">
             <input class="rounded-pill" type="text" name="q">
+            <input type="hidden" name="udm" value="2">
             <button type="submit" value="Google Search" class="btn btn-primary">Google Search</button>
         </form>
     </body>
 </html>
+
